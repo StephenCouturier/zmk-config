@@ -41,10 +41,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans   &kp EXCL             &kp AT       &kp HASH          &kp DLLR  &kp PRCNT    &kp CARET   &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &kp GRAVE   &kp SINGLE_QUOTE      &kp COMMA        &kp PERIOD   &kp SEMI    &kp MINUS  &kp EQUAL         &kp LBKT  &kp RBKT  &kp BSLH    &trans
-&trans  &kp TILDE  &kp DOUBLE_QUOTES  &kp LESS_THAN  &kp GREATER_THAN  &kp COLON    &kp UNDER   &kp PLUS         &kp LBRC  &kp RBRC  &kp PIPE    &trans
-                                             &trans            &trans     &trans       &trans     &trans           &trans
+&trans   &kp EXCL             &kp AT       &kp HASH          &kp DLLR  &kp PRCNT           &kp CARET           &kp AMPS  &kp KP_MULTIPLY   &kp LPAR  &kp RPAR  &trans
+&trans  &kp GRAVE   &kp SINGLE_QUOTE      &kp COMMA        &kp PERIOD   &kp SEMI      &kp LEFT_BRACE    &kp RIGHT_BRACE        &kp MINUS  &kp EQUAL  &kp BSLH  &trans
+&trans  &kp TILDE  &kp DOUBLE_QUOTES  &kp LESS_THAN  &kp GREATER_THAN  &kp COLON    &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp UNDERSCORE   &kp PLUS  &kp PIPE  &trans
+                                             &trans            &trans     &trans              &trans             &trans           &trans
             >;
         };
 
@@ -73,4 +73,3 @@
         };
     };
 };
-    
